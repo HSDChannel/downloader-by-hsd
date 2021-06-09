@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="pro">
+    
+  <method name="doButton3Click">
+      <hideForm form="pro" form-type="form"/>
+    </method>
+  
+  <method name="doLinkClick">
+      <browse url="https://github.com/HSDChannel/downloader-by-hsd" url-type="string"/>
+    </method>
+  </class>
+</root>

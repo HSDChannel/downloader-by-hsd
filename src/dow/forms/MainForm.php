@@ -23,6 +23,15 @@ class MainForm extends AbstractForm
         
     }
 
+    /**
+     * @event button5.click 
+     */
+    function doButton5Click(UXMouseEvent $e = null)
+    {    
+        
+    }
+
+
 
 
 }

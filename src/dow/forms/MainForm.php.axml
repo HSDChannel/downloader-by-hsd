@@ -8,5 +8,8 @@
   <method name="doButton4Click">
       <minimizeForm form="MainForm" form-type="form" restore="" restore-type=""/>
     </method>
+  <method name="doButton5Click">
+      <showForm form="pro" form-type="form"/>
+    </method>
   </class>
 </root>

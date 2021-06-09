@@ -11,7 +11,7 @@
           </font>
         </FlatButton>
         <Data cursor="DEFAULT" enabled="1" id="data-button" visible="1"/>
-        <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit" layoutX="136" layoutY="272" prefColumnCount="12" prefHeight="32" prefWidth="512" promptText="" styleClass="text-input text-field " text="">
+        <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit" layoutX="136" layoutY="272" prefColumnCount="12" prefHeight="32" prefWidth="512" promptText="" styleClass="text-input text-field " text="http://">
           <font>
             <Font name="System Regular" size="12"/>
           </font>
@@ -49,6 +49,12 @@
         <Data cursor="DEFAULT" enabled="1" id="data-button3" visible="1"/>
         <Rectangle arcHeight="0" arcWidth="0" fill="#323265" focusTraversable="false" height="8" id="rect" layoutX="-8" layoutY="-8" stroke="#323265" strokeType="INSIDE" strokeWidth="2" styleClass="" width="744"/>
         <Data cursor="DEFAULT" enabled="1" id="data-rect" visible="1"/>
+        <FlatButton alignment="CENTER" color="#323265" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#5656b0" id="button5" layoutX="0" layoutY="496" prefHeight="24" prefWidth="24" styleClass="x-flat-button " text="!" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </FlatButton>
+        <Data cursor="DEFAULT" enabled="1" id="data-button5" visible="1"/>
       </children>
       <titleFont>
         <Font name="System Regular" size="12"/>
