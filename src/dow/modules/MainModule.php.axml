@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="MainModule">
+    
+  
+  
+  
+  <method name="doJdownloaderComplete">
+      <open file="./download/" file-type="string"/>
+    </method>
+  </class>
+</root>

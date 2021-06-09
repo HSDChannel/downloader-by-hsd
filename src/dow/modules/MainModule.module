@@ -1,0 +1,22 @@
+{
+  "props": [],
+  "components": {
+    "jdownloader": {
+      "type": "bundle\\jurl\\jURLDownloader",
+      "x": 512,
+      "y": 336,
+      "props": {
+        "threadCount": "4",
+        "savePath": "./download/",
+        "selectSavePath": "0",
+        "fieldUrl": "edit",
+        "progressBar": "progressBar",
+        "labelDownloaded": "sAlt",
+        "labelTotal": "labelAlt",
+        "labelTimeLeft": "label3",
+        "buttonStart": "button",
+        "buttonStop": "buttonAlt"
+      }
+    }
+  }
+}
