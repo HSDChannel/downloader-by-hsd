@@ -33,5 +33,11 @@
       </font>
     </FlatButton>
     <Data cursor="DEFAULT" enabled="1" id="data-button3" visible="1"/>
+    <Hyperlink alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="linkAlt" layoutX="368" layoutY="328" prefHeight="16" prefWidth="144" styleClass="hyperlink " text="Исходники в CodeBerg" textAlignment="LEFT" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </Hyperlink>
+    <Data cursor="DEFAULT" enabled="1" id="data-linkAlt" visible="1"/>
   </children>
 </AnchorPane>

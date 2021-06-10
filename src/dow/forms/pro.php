@@ -24,6 +24,14 @@ class pro extends AbstractForm
         
     }
 
+    /**
+     * @event linkAlt.click 
+     */
+    function doLinkAltClick(UXMouseEvent $e = null)
+    {    
+        
+    }
+
 
 
 }
