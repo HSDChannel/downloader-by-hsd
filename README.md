@@ -1,3 +1,3 @@
-# Загрузчик by HSD
-Мини качалка для файлов.
+# Downloader by HSD
+Mini rocking chair for files..
 ![demo](https://i.imgur.com/xWvCZkQ.png)
