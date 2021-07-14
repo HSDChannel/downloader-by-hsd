@@ -7,7 +7,7 @@
       "y": 336,
       "props": {
         "threadCount": "4",
-        "savePath": "./download/",
+        "savePath": "./download",
         "selectSavePath": "0",
         "fieldUrl": "edit",
         "progressBar": "progressBar",

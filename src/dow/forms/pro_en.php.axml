@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="pro_en">
+    <method name="doLinkClick">
+      <browse url="https://github.com/HSDChannel/downloader-by-hsd" url-type="string"/>
+    </method>
+    
+    <method name="doLinkAltClick">
+      <browse url="https://codeberg.org/HSD/downloader-by-hsd" url-type="string"/>
+    </method>
+  <method name="doButton3Click">
+      <hideForm form="pro_en" form-type="form"/>
+    </method>
+  </class>
+</root>

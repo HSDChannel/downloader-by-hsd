@@ -5,7 +5,7 @@
       <children>
         <ProgressBar focusTraversable="false" id="progressBar" layoutX="232" layoutY="392" prefHeight="48" prefWidth="320" progress="0" styleClass="progress-bar "/>
         <Data cursor="DEFAULT" enabled="1" id="data-progressBar" visible="1"/>
-        <FlatButton alignment="CENTER" color="#323265" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#5656b0" id="button" layoutX="256" layoutY="336" prefHeight="32" prefWidth="120" styleClass="x-flat-button " text="Старт" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+        <FlatButton alignment="CENTER" color="#323265" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#5656b0" id="button" layoutX="256" layoutY="336" prefHeight="32" prefWidth="120" styleClass="x-flat-button " text="Start" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
           <font>
             <Font name="System Regular" size="12"/>
           </font>
@@ -17,7 +17,7 @@
           </font>
         </TextField>
         <Data cursor="DEFAULT" enabled="1" id="data-edit" visible="1"/>
-        <LabelEx alignment="CENTER" autoSize="false" contentDisplay="TOP" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="208" layoutY="152" prefHeight="96" prefWidth="368" styleClass="label " text="Загрузчик by HSD" textAlignment="LEFT" textFill="#323265" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER" autoSize="false" contentDisplay="TOP" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="208" layoutY="152" prefHeight="96" prefWidth="368" styleClass="label " text="Downloader by HSD" textAlignment="LEFT" textFill="#323265" underline="false" wrapText="false">
           <font>
             <Font name="Stolzl Display Bold" size="35"/>
           </font>
@@ -35,7 +35,7 @@
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-label3" visible="1"/>
-        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label4" layoutX="16" layoutY="48" prefHeight="16" prefWidth="96" styleClass="label " text="Осталось:" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label4" layoutX="16" layoutY="48" prefHeight="16" prefWidth="96" styleClass="label " text="Remaining:" textAlignment="LEFT" underline="false" wrapText="false">
           <font>
             <Font name="Stolzl Display Bold" size="12"/>
           </font>
@@ -55,7 +55,13 @@
           </font>
         </FlatButton>
         <Data cursor="DEFAULT" enabled="1" id="data-button5" visible="1"/>
-        <FlatButton alignment="CENTER" color="#323265" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#5656b0" id="button6" layoutX="760" layoutY="496" prefHeight="24" prefWidth="24" styleClass="x-flat-button " text="en" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+        <FlatButton alignment="CENTER" color="#323265" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#5656b0" id="button4" layoutX="736" layoutY="0" prefHeight="24" prefWidth="24" styleClass="x-flat-button " text="-" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </FlatButton>
+        <Data cursor="DEFAULT" enabled="1" id="data-button4" visible="1"/>
+        <FlatButton alignment="CENTER" color="#323265" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#5656b0" id="button6" layoutX="760" layoutY="496" prefHeight="24" prefWidth="24" styleClass="x-flat-button " text="ru" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
           <font>
             <Font name="System Regular" size="12"/>
           </font>
@@ -66,24 +72,12 @@
         <Font name="System Regular" size="12"/>
       </titleFont>
     </Panel>
-    <FlatButton alignment="CENTER" color="#323265" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#5656b0" id="buttonAlt" layoutX="408" layoutY="344" prefHeight="32" prefWidth="120" styleClass="x-flat-button " text="Стоп" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
-      <font>
-        <Font name="System Regular" size="12"/>
-      </font>
-    </FlatButton>
     <Data cursor="DEFAULT" enabled="1" id="data-panel" visible="1"/>
-    <Data cursor="DEFAULT" enabled="1" id="data-buttonAlt" visible="1"/>
-    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="136" layoutY="24" prefHeight="16" prefWidth="96" styleClass="label " text="" textAlignment="LEFT" underline="false" wrapText="false">
-      <font>
-        <Font name="Stolzl Display Bold" size="12"/>
-      </font>
-    </LabelEx>
-    <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
-    <FlatButton alignment="CENTER" color="#323265" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#5656b0" id="button4" layoutX="744" layoutY="8" prefHeight="24" prefWidth="24" styleClass="x-flat-button " text="-" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+    <FlatButton alignment="CENTER" color="#323265" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#5656b0" id="buttonAlt" layoutX="408" layoutY="344" prefHeight="32" prefWidth="120" styleClass="x-flat-button " text="Stop" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
       <font>
         <Font name="System Regular" size="12"/>
       </font>
     </FlatButton>
-    <Data cursor="DEFAULT" enabled="1" id="data-button4" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-buttonAlt" visible="1"/>
   </children>
 </AnchorPane>

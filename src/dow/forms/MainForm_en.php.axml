@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <root>
-  <class name="MainForm">
+  <class name="MainForm_en">
     <method name="doButton3Click">
       <applicationShutdown/>
     </method>
     
-  <method name="doButton4Click">
+    <method name="doButton4Click">
       <minimizeForm form="MainForm" form-type="form" restore="" restore-type=""/>
     </method>
-  <method name="doButton5Click">
-      <showForm form="pro" form-type="form"/>
-    </method>
-  
+    
   <method name="doButton6Click">
-      <loadForm form="MainForm_en" form-type="form" savePosition="" savePosition-type="" saveSize="" saveSize-type=""/>
+      <loadForm form="MainForm" form-type="form" savePosition="" savePosition-type="" saveSize="" saveSize-type=""/>
+    </method>
+  <method name="doButton5Click">
+      <showForm form="pro_en" form-type="form"/>
     </method>
   </class>
 </root>
