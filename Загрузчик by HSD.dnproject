@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project author="Дима" authorOS="Windows 10" createdAt="1623247093710" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="Загрузчик by HSD" packageName="dow" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1626257437272">
+<project author="Дима" authorOS="Windows 10" createdAt="1623247093710" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="Загрузчик by HSD" packageName="dow" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1626369240559">
   <tree>
     <expanded>
     <path src=""/>
       <path src="/src"/>
       <path src="/src/dow"/>
-      <path src="/src/dow/forms"/>
+      <path src="/src/dow/modules"/>
     </expanded>
   </tree>
   <openedFiles>
   <file src="Загрузчик by HSD.dnproject"/>
-    <file src="src/dow/modules/MainModule.php"/>
+    <file selected="1" src="src/dow/modules/MainModule.php"/>
     <file src="src/dow/forms/MainForm.php"/>
-    <file selected="1" src="src/dow/forms/pro.php"/>
+    <file src="src/dow/forms/pro.php"/>
     <file src="src/dow/forms/MainForm_en.php"/>
+    <file src="src/dow/forms/pro_en.php"/>
   </openedFiles>
   <files/>
   <behaviours>
